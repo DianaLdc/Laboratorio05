@@ -1,0 +1,25 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+/* Interacción: cambia de color al pasar el mouse */
+nav a:hover {
+    background: #0066cc;
+}
+
+/* Interacción: resalta el link de la página actual */
+nav a.active {
+    background: #003366;
+    font-weight: bold;
+}
