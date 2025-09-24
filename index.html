@@ -9,18 +9,37 @@
 <body>
   <header>
     <img src="logo.png" alt="Logo del sitio" width="100">
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Artículos</a></li>
-        <li><a href="#">Recursos</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
+     <nav id="menu">
+  <ul>
+    <li>
+      <details>
+        <summary>Artículos</summary>
+        <ul>
+          <li><a href="#art1">Redes Neuronales</a></li>
+          <li><a href="#art2">Big Data</a></li>
+          <li><a href="#art3">Aprendizaje Reforzado</a></li>
+          <li><a href="#art4">Blockchain</a></li>
+          <li><a href="#art5">Transformers</a></li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>Recursos</summary>
+        <ul>
+          <li><a href="https://ieeexplore.ieee.org/">IEEE Xplore</a></li>
+          <li><a href="https://dl.acm.org/"">ACM Digital Library</a></li>
+          <li><a href="https://www.sciencedirect.com/#">ScienceDirect</a></li>
+        </ul>
+      </details>
+    </li>
+    <li><a href="#">Contacto</a></li>
+  </ul>
+</nav>
   </header>
 
-  <main>
-    <article>
+  <main >
+    <article id="art1">
       <h2>Redes Neuronales Convolucionales en Visión Artificial</h2>
       <p><strong>Autores:</strong> Krizhevsky, A.; Sutskever, I.; Hinton, G.  
       <strong>Revista:</strong> Communications of the ACM, Q1.  
@@ -30,7 +49,7 @@
         <figcaption>Esquema de la arquitectura AlexNet.</figcaption>
       </figure>
     </article>
-    <article>
+    <article id="art2">
       <h2>Big Data y Computación en la Nube</h2>
       <p><strong>Autores:</strong> Chen, M.; Mao, S.; Liu, Y.  
       <strong>Revista:</strong> Future Generation Computer Systems, Q1.  
@@ -40,7 +59,7 @@
         <figcaption>Relación entre big data y la computación en la nube.</figcaption>
       </figure>
     </article>
-    <article>
+    <article id="art3">
       <h2>Algoritmos de Aprendizaje Reforzado</h2>
       <p><strong>Autores:</strong> Mnih, V. et al.  
       <strong>Revista:</strong> Nature, Q1.  
@@ -50,7 +69,7 @@
         <figcaption>Resultados del modelo DQN en videojuegos Atari.</figcaption>
       </figure>
     </article>
-    <article>
+    <article id="art4">
       <h2>Blockchain en la Seguridad de Datos</h2>
       <p><strong>Autores:</strong> Swan, M.  
       <strong>Revista:</strong> IEEE Computer, Q1.  
@@ -60,7 +79,7 @@
         <figcaption>Esquema de la cadena de bloques y validación de datos.</figcaption>
       </figure>
     </article>
-    <article>
+    <article id="art5">
       <h2>Procesamiento de Lenguaje Natural con Transformers</h2>
       <p><strong>Autores:</strong> Vaswani, A. et al.  
       <strong>Revista:</strong> Advances in Neural Information Processing Systems (NeurIPS), Q1.  
@@ -72,22 +91,8 @@
     </article>
   </main>
 
-  <!-- Barra lateral -->
-  <aside>
-    <h3>Enlaces relacionados</h3>
-    <ul>
-      <li><a href="https://ieeexplore.ieee.org/">IEEE Xplore</a></li>
-      <li><a href="https://dl.acm.org/">ACM Digital Library</a></li>
-      <li><a href="https://www.sciencedirect.com/">ScienceDirect</a></li>
-      <li><a href="https://www.nature.com/">Nature</a></li>
-      <li><a href="https://arxiv.org/">arXiv</a></li>
-    </ul>
-    <h3><a href="noticias.html">Pagina de noticias</a></h3>
-    
-  </aside>
-
-  <!-- Pie de página -->
-  <footer>
+  
+  <footer id="contacto">
     <p>Contacto: diana.ramos@unsa.edu.pe | Universidad Nacional de San Agustín</p>
   </footer>
 </body>
